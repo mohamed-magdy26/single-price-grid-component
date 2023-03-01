@@ -146,6 +146,7 @@ body {
   padding: 0.5rem 0;
   font-size: 1rem;
   font-weight: 700;
+  margin-top: 0.625rem;
 }
 
 .why-us {
@@ -154,11 +155,12 @@ body {
   background-color: hsla(179, 62%, 43%, 0.8);
   border-radius: 0 0 8px 0;
 }
-
-.why-us p {
+.why-us ul {
+  list-style: none;
+}
+.why-us ul li {
   color: var(--grayish-white);
   font-size: 0.875rem;
-  width: 25ch;
 }
 
 @media (max-width: 580px) {
