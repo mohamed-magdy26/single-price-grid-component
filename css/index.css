@@ -73,7 +73,7 @@ body {
 
 .price-component {
   width: 95%;
-  max-width: 640px;
+  max-width: 40rem;
   border-radius: 8px;
   background-color: white;
   display: grid;
@@ -126,7 +126,7 @@ body {
 
 .subscription .price p:first-child {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 .subscription .price p:last-child {
   color: var(--grayish-white);
@@ -157,7 +157,7 @@ body {
 
 .why-us p {
   color: var(--grayish-white);
-  font-size: 15px;
+  font-size: 0.875rem;
   width: 25ch;
 }
 
